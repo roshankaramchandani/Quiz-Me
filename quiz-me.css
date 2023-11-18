@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.outer{
+    background-color: aqua;
+    width: 400px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+#header{
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    align-items: flex-start;
+    margin: 45px;
+}
+
+.title{
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+    justify-content: center;
+    padding: 4px;
+}
+
+.title:hover{
+    cursor: default;
+}
+
+#current{
+    display: none;
+}
+
+#current:hover{
+    cursor: pointer;
+}
+
+.category{
+    border: solid black 1px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.category:hover{
+    cursor: pointer;
+    background-color: gold;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+#categories{
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#question{
+    height: 150px;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#question:hover{
+    cursor: default;
+}
+
+#questionText{
+    padding:10px;
+}
+
+#options{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 50% 50%; */
+}
+.option{
+    border: solid black 1px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover:hover{
+    cursor: pointer;
+    background-color: gold;
+}
+
+#next{
+    border: solid black 1px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#next:hover{
+    cursor: pointer;
+    background-color:dimgrey;
+}
